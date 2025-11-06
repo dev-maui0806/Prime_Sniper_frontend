@@ -24,7 +24,7 @@ const Header = () => {
             <NavLink 
               to="/" 
               className="text-sm text-muted-foreground hover:text-primary transition-colors"
-              activeClassName="text-foreground"
+              activeClassName="text-primary"
             >
               Home
             </NavLink>
@@ -38,14 +38,14 @@ const Header = () => {
             <NavLink 
               to="/who-we-are" 
               className="text-sm text-muted-foreground hover:text-primary transition-colors"
-              activeClassName="text-foreground"
+              activeClassName="text-primary"
             >
               Who We Are
             </NavLink>
             <NavLink 
               to="/terms" 
               className="text-sm text-muted-foreground hover:text-primary transition-colors"
-              activeClassName="text-foreground"
+              activeClassName="text-primary"
             >
               Terms of Service
             </NavLink>
